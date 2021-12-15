@@ -168,3 +168,5 @@ df.show(truncate=False)
 file = 'C:/Users/borja.martin/Desktop/LearningSparkV2-master/databricks-datasets/learning-spark-v2/flights/summary-data/orc/*'
 
 df = spark.read.format('orc').option('path', file).load()
+
+
